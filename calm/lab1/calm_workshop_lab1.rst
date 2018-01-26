@@ -41,6 +41,8 @@ what they’re supposed to).
 ran on the target machine. Macros and Variables are denoted in the
 @@{[name]}@@ format in the scripts.
 
+Can we add "substrate" as a term in the glossary section
+
 Part 1: Accessing and Navigating Calm
 **************************************
 
