@@ -99,7 +99,7 @@ View a list of helpful commands, and check the version of *pip* that is installe
 .. code-block:: bash
 
   $ pip --help
-  $ pip -v
+  $ pip -V
 
 Once *pip has been installed and verified, we can now install *requests* as follows:
 
@@ -310,15 +310,15 @@ In this section we'll Navigate the REST API Explorer to execute importing a blue
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab5/image20.png
 
-2. Remove the **status** content by right-clicking on the Node *Status*.  Select **Remove** from the menu.
+2. Remove the **status** content by clicking on the Node *Status*.  Select **Remove** from the menu.
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab5/image21.png
 
-3. Insert an *object* to **metadata** by right-clicking on the Node *metadata*.  Select *insert* and then *object*.
+3. Insert an *object* to **metadata** by clicking on the Node *metadata*.  Select *insert* and then *object*.
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab5/image22.png
 
-4. Name the object *project_reference*. Add 2 *string* members to the *project_reference* object by right-clicking on the node and select *append*.
+4. Name the object *project_reference*. Add 2 *string* members to the *project_reference* object by clicking on the node and select *append*.
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab5/image23.png
 
@@ -412,7 +412,7 @@ Notice that the blueprint imported in the previous section is in **Draft** state
 
 6. Copy the entire *Response Body* from the Blueprint **GET** */blueprints/{uuid}* API request and paste it to the Chrome JSON Editor (Chrome-JSON-Editor-Extension_). Once it's pasted, click (|image9|) to migrate the json to a node-structure.
 
-7. Remove the **status** content by right-clicking on the Node *Status*.  Select **Remove** from the menu.
+7. Remove the **status** content by clicking on the Node *Status*.  Select **Remove** from the menu.
 
 8. Expand the JSON node structure  and make the edits as shown below:
 
@@ -460,7 +460,7 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab5/image31.png
 
-6. Remove the **status** content by right-clicking on the Node *Status*.  Select **Remove** from the menu.
+6. Remove the **status** content by clicking on the Node *Status*.  Select **Remove** from the menu.
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab5/image21.png
 
@@ -468,11 +468,11 @@ In this section we'll Navigate the REST API Explorer to execute launching a blue
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab5/image32.png
 
-8. Insert an *object* to **spec** by right-clicking on the Node *resources*.  Select *insert* and then *object*.
+8. Insert an *object* to **spec** by clicking on the Node *resources*.  Select *insert* and then *object*.
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab5/image33.png
 
-9. Name the object *app_profile_reference*. Add 2 key/value pairs as *string* members to the *app_profile_reference* object by right-clicking on the node and select *append*, and then *string*.  Name the key/values *kind:app_profile* and
+9. Name the object *app_profile_reference*. Add 2 key/value pairs as *string* members to the *app_profile_reference* object by clicking on the node and select *append*, and then *string*.  Name the key/values *kind:app_profile* and
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab5/image34.png
 
@@ -550,7 +550,7 @@ You've successfully deleted an application that was previously imported and laun
 Automation of REST Endpoints
 ****************************
 
-In this section we'll run python code instrumented to programmatically perform the commands you ran manually from previous steps using the NTNX REST API Explorer.  You'll begin by installing *git*, configuring a dev environment, cloning an exiting *git* repository to the dev environment, and execute the code downloaded from the repository.
+In this section we'll run python code instrumented to programmatically perform the commands you ran manually from previous steps using the NTNX REST API Explorer.  You'll begin by installing *git*, configuring a dev environment, cloning an existing *git* repository to the dev environment, and execute the code downloaded from the repository.
 
 
 **Install Git:**
@@ -578,9 +578,9 @@ Download the autuomation-code (python) used to automate REST from *github* as fo
 
   $ git clone https://github.com/mjastad/automation.git
 
-If all was successfull you should find a directory */root/automation/solution/*
+If all was successfull you should find a directory */root/development/automation/solution/*
 
-Edit */root/automation/solution/config.py* and set the connection variables (i.e. *user, passwd, ipaddress*) using the associated information for your assigned cluster.  Make sure the values are within quotes(**"some_value"**) as follows:
+Edit */root/development/automation/solution/config.py* and set the connection variables (i.e. *user, passwd, ipaddress*) using the associated information for your assigned cluster.  Make sure the values are within quotes(**"some_value"**) as follows:
 
 .. code-block:: python
 
