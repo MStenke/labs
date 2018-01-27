@@ -91,9 +91,9 @@ Create Blueprint Workflow
 
 .. note:: In general, the Blueprint creation flow goes:
 
-1. Create Object in Application Overview or select existing object from the workspace or the Overview panel.
-2. Configure the object in the configuration pane.
-3. Repeat for each object.
+1. Create a Service in Application Overview or select existing service from the workspace or the Overview panel.
+2. Configure the Service object in the configuration pane.
+3. Repeat for each Service object.
 4. Connect dependencies in the workspace.
 
 Let’s get started by setting up the basics
@@ -111,8 +111,8 @@ Click on the **Credentials** button along the top of the Blueprint workspace. Up
 +-----------------------+---------------+
 | **Password**          | nutanix/4u    |
 +-----------------------+---------------+
-| **Use as Default**    | Checked       |
-+-----------------------+---------------+
+
+There is no "save" option once you've entered or modiefied your credential(s).  You must click the Back button in the upper right to go back to the main workspace.
 
 .. note:: Credentials are unique per Blueprint.
 
