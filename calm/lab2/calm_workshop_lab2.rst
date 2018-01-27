@@ -168,7 +168,7 @@ Create Service
 
 .. code-block:: bash
 
-  VM Name .  : HAProxy
+  VM Name .  : HAProxyVM
   Image .    : CentOS
   Disk Type .: DISK
   Device Bus : SCSI
@@ -267,7 +267,7 @@ Package Configuration
 10. Click on the Arrow icon that appears right above it,
 11. Click on the **APACHE_PHP_AHV** service.
 12. This tells Calm to hold running the script until the **APACHE_PHP_AHV** service is up.
-13. Save the blueprint, and launch it.
+13. Save the blueprint, and launch it.  Name the application **APACHE_PHP_AHV_APP**.
 
 
 .. |image0| image:: lab2/media/image1.png
