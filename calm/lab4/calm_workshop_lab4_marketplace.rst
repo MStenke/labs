@@ -58,7 +58,7 @@ In this exercise we'll walk through the steps to:
 2. Clone the Blueprint from the Marketplace for editing.
 3. Edit the blueprint and launch as an application.
 
-Make sure *Marketplace Blueprints* is selected along the top of the Blueprint grid. Locate the **Mongo** blueprint within the grid and click the checkbox.
+Make sure *Marketplace Manager* is selected along the top of the Blueprint grid. Locate the **Mongo** blueprint within the grid and click the checkbox.
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab4/image5.png
 
@@ -93,7 +93,7 @@ Click the red exclamation point to see a list fo error desriptions.
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab4/image16.png
 
-Fix each of the errors listed within the Blueprint.  Once all the errors have been corrected, make additional changes to each of the **Mongo** services (i.e. VM, Package, etc...) and launch the blueprint.  Continue to make chnages until the the Blueprint successfully deploys.
+Fix each of the errors listed within the Blueprint.  Once all the errors have been corrected, make additional changes to each of the **Mongo** services (i.e. VM, Package, etc...) and launch the blueprint.  Continue to make changes until the Blueprint successfully deploys.
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab4/image17.png
 
