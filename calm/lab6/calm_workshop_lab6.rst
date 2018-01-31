@@ -140,7 +140,7 @@ Add this code to the file:
 
 YAML files start with "---", so make sure you don't forget that part.
 
-Save and close this file when you are finished. Now Ansible will always use the sammy user for the servers group, regardless of the current user.
+Save and close this file when you are finished. Now Ansible will always use the **ansible** user for the servers group, regardless of the current user.
 
 If you want to specify configuration details for every server, regardless of group association, you can put those details in a file at /etc/ansible/group_vars/all. Individual hosts can be configured by creating files under a directory at /etc/ansible/host_vars.
 
