@@ -32,7 +32,7 @@ Step 2 - Create a New User
 
 Once you are logged in as root, we're prepared to add the new user account that we will use to log in from now on.
 
-This example creates a new user called "demo", but you should replace it with a user name that you like:
+This example creates a new user called "nucalm", but you should replace it with a user name that you like:
 
 .. code-block:: bash
 
