@@ -140,7 +140,7 @@ Now run the build command. This creates a Docker image, which we’re going to t
 
 .. code-block:: bash
 
-  $ docker build -t calmWorkshop .
+  $ docker build -t calmworkshop .
 
 Where is your built image? It’s in your machine’s local Docker image registry:
 
@@ -149,7 +149,7 @@ Where is your built image? It’s in your machine’s local Docker image registr
   $ docker images
 
     REPOSITORY            TAG                 IMAGE ID
-    calmWorkshop          latest              326387cea398
+    calmworkshop          latest              326387cea398
 
 Tip: You can use the commands docker images or the newer docker image ls list images. They give you the same output.
 
@@ -160,7 +160,7 @@ Run the app, mapping your machine’s port 4000 to the container’s published p
 
 .. code-block:: bash
 
-  $ docker run -p 4000:80 calmWorkshop
+  $ docker run -p 4000:80 calmworkshop
 
 You should see a message that Python is serving your app at http://0.0.0.0:80. But that message is coming from inside the container, which doesn’t know you mapped port 80 of that container to 4000, making the correct URL http://localhost:4000.
 
@@ -182,7 +182,7 @@ Now let’s run the app in the background, in detached mode:
 
 .. code-block:: bash
 
-  $ docker run -d -p 4000:80 calmWorkshop
+  $ docker run -d -p 4000:80 calmworkshop
 
 You get the long container ID for your app and then are kicked back to your terminal. Your container is running in the background. You can also see the abbreviated container ID with docker container ls (and both work interchangeably when running commands):
 
@@ -190,7 +190,7 @@ You get the long container ID for your app and then are kicked back to your term
 
   $ docker container ls
     CONTAINER ID        IMAGE               COMMAND             CREATED
-    1fa4ab2cf395        calmWorkshop        "python app.py"     28 seconds ago
+    1fa4ab2cf395        calmworkshop        "python app.py"     28 seconds ago
 
 You’ll see that CONTAINER ID matches what’s on http://localhost:4000.
 
@@ -234,7 +234,7 @@ For example:
 
 .. code-block:: bash
 
-  $ docker tag calmWorkshop dogfish/get-started:part2
+  $ docker tag calmworkshop dogfish/get-started:part2
 
 Run docker images to see your newly tagged image. (You can also use docker image ls.)
 
