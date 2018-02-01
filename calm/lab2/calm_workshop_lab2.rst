@@ -30,7 +30,7 @@ above.
 **Calm Glossary**
 
 **Service**: One tier of a multiple tier application. This can be made
-up of 1 more VMs (or existing machines) that all have the same config
+up of 1 or more VMs (or existing machines) that all have the same config
 and do the same thing
 
 **Application (App):** A whole application with multiple parts that are
