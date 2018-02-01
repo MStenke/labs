@@ -17,7 +17,7 @@ Connectivity Instructions:
 Calm Glossary
 *************
 
-**Service:** One tier of a multiple tier application. This can be made up of 1 more VMs (or existing machines) that all have the same config and do the same thing
+**Service:** One tier of a multiple tier application. This can be made up of 1 or more VMs (or existing machines) that all have the same config and do the same thing
 
 **Application (App):** A whole application with multiple parts that are all working towards the same thing (for example, a Web Application might be made up of an Apache Server, a MySQL database and a HAProxy Load balancer. Alone each service doesn’t do much, but as a whole they do what they’re supposed to)
 
