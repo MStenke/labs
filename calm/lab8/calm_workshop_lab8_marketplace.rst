@@ -17,7 +17,7 @@ Connectivity Instructions:
 Calm Glossary
 *************
 
-**Service:** One tier of a multiple tier application. This can be made up of 1 more VMs (or existing machines) that all have the same config and do the same thing.
+**Service:** One tier of a multiple tier application. This can be made up of 1 or more VMs (or existing machines) that all have the same config and do the same thing.
 
 **Application (App):** A whole application with multiple parts that are all working towards the same thing (for example, a Web Application might be made up of an Apache Server, a MySQL database and a HAProxy Load balancer. Alone each service doesn’t do much, but as a whole they do what they’re supposed to).
 
@@ -76,7 +76,7 @@ Part 3: Marketplace Manager - Approve Blueprint
 
 **Note:** You must be logged in as Admin or have an Admin role to access the *Marketplace Manager*
 
-Navigate to the Marketplace Manager by clicking (|image6|) icon located on the left tool ribbon.  This will open the Marketplace Manager where Blueprints are staged for Marketplace publication.  Scrolling through the Blueprints, you will not sfind the Blueprint published from the *Blueprint Workspace*.  This is becuase the Blueprnt requires approval.
+Navigate to the Marketplace Manager by clicking (|image6|) icon located on the left tool ribbon.  This will open the Marketplace Manager where Blueprints are staged for Marketplace publication.  Scrolling through the Blueprints, you will not find the Blueprint published from the *Blueprint Workspace*.  This is becuase the Blueprint requires approval.
 
 To approve the Blueprint, click the *Approval Pending* action located along the top tool-bar of the *Marketplace Manager*.
 
@@ -88,11 +88,11 @@ Click the checkbox to the left of the *Blueprint Name*.
 
 You can choose to reject, approve, or launch the blueprint.
 
-- Reject: Changes the state fo the blueprint publication and stages it in *Approval Pending*
+- Reject: Changes the state of the blueprint publication and stages it in *Approval Pending*
 - Approve: Approves the blueprint for publication.
 - Launch: Launches the Blueprint as an application - the same as *Blueprint Workspace*
 
-Click *Approve* to approve the Bluerpint for publication.  Once the application has been successfully approved, assign the **Category** and **Project Shared With** as shown below and click **Apply**.
+Click **Approve** to approve the Bluerpint for publication.  Once the application has been successfully approved, assign the **Category** and **Project Shared With** as shown below and click **Apply**.
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab8/image21.png
 
@@ -121,7 +121,7 @@ This can be done in the Projects Manager. Navigate to the the Projects Manager b
 
 .. figure:: http://s3.nutanixworkshops.com/calm/lab8/image26.png
 
-Click the Project name associated with or assigned to with Blueprint during publication.  For this exercise the project is **Calm**.
+Click the Project name associated with or assigned to the Blueprint during publication.  For this exercise the project is **Calm**.
 
 To assign a user and a network to the Project, click the **Environment** action located along the top tool-bar of the **Project Manager**.  Scroll through the environment settings and find **Network** and **Credentials** and configure them as you did with the blueprint.
 
