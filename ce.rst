@@ -1,6 +1,6 @@
-=================
+==================
 Community Edition
-=================
+==================
 
 Nutanix Community Edition (CE) is a free-of-charge, community supported edition of the Nutanix Enterprise Cloud OS software. CE runs on the Nutanix AHV processor and can be installed on a wide variety of hardware, including non-server platforms. As such, CE has become a popular option for testing and training on the Nutanix.
 
